@@ -15,6 +15,7 @@
 		2D82C39325BF442E00811C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D82C39125BF442E00811C0B /* LaunchScreen.storyboard */; };
 		2D82C39E25BF442F00811C0B /* A1_iOS_Ranjeet_C0785585Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82C39D25BF442F00811C0B /* A1_iOS_Ranjeet_C0785585Tests.swift */; };
 		2D82C3A925BF442F00811C0B /* A1_iOS_Ranjeet_C0785585UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82C3A825BF442F00811C0B /* A1_iOS_Ranjeet_C0785585UITests.swift */; };
+		2D82C3BA25BF5E2500811C0B /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D82C3B925BF5E2500811C0B /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2D82C3A425BF442F00811C0B /* A1_iOS_Ranjeet_C0785585UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A1_iOS_Ranjeet_C0785585UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D82C3A825BF442F00811C0B /* A1_iOS_Ranjeet_C0785585UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_iOS_Ranjeet_C0785585UITests.swift; sourceTree = "<group>"; };
 		2D82C3AA25BF442F00811C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D82C3B925BF5E2500811C0B /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2D82C38F25BF442E00811C0B /* Assets.xcassets */,
 				2D82C39125BF442E00811C0B /* LaunchScreen.storyboard */,
 				2D82C39425BF442E00811C0B /* Info.plist */,
+				2D82C3B925BF5E2500811C0B /* Place.swift */,
 			);
 			path = A1_iOS_Ranjeet_C0785585;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				2D82C38B25BF442C00811C0B /* ViewController.swift in Sources */,
 				2D82C38725BF442C00811C0B /* AppDelegate.swift in Sources */,
 				2D82C38925BF442C00811C0B /* SceneDelegate.swift in Sources */,
+				2D82C3BA25BF5E2500811C0B /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
