@@ -16,9 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gKd-Qf-Rle">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gKd-Qf-Rle">
+                                <rect key="frame" x="0.0" y="44" width="414" height="680"/>
                             </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvJ-5V-ISm">
+                                <rect key="frame" x="47" y="755" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show Routes"/>
+                                <connections>
+                                    <action selector="route_draw:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Kl-7S-s59"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,11 +39,12 @@
                     </view>
                     <connections>
                         <outlet property="mapVIew" destination="gKd-Qf-Rle" id="w03-y7-0Uu"/>
+                        <outlet property="routeButton" destination="kvJ-5V-ISm" id="3Hm-QI-VcS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="78"/>
+            <point key="canvasLocation" x="34.782608695652179" y="77.678571428571431"/>
         </scene>
     </scenes>
     <resources>
